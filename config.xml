@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+    viewmodes   = "fullscreen">
+
+ <name>XAMity Social Media</name>
+
+  <description>
+      Chat and meet people worldwide.  Share photos across popular social networking sites.  Huge sharp celebrity pics, chat from any page on our site, plus Vote for you favourite celebrities, entertainers and atheletes.
+  </description>
+
+    <access origin="https://xam.life" subdomains="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-navigation href="*" />
+
+<preference name="backgroundcolor" value="#ffffff" />
+<preference name="stay-in-webview" value="false" />
+<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="permissions" value="none"/>
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="true"/>
+<preference name="Orientation" value="portrait" />
+<preference name="InAppBrowserStorageEnabled" value="true"/>
+
+<plugin name="cordova-plugin-inappbrowser"/>
+<plugin name="cordova-plugin-app-launcher" />
+<plugin name="cordova-plugin-viewport" />
+<plugin name="cordova-plugin-whitelist" />
+<plugin name="cordova-plugin-vibration" />
+
+  <author href="https://xam.life/my/jdove" email="davidjdove@live.com">J. Dove</author>
+
+<icon src="XAp_logo.png" width="57" height="57" density="mdpi" />
+<icon src="XApw_logo.png" width="256" height="256" density="mdpi" />
+</widget>
