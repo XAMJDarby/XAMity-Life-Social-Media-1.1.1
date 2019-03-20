@@ -19,6 +19,7 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 
 <config-file platform="android" parent="/manifest" mode="merge">
     android:debuggable="false"
+<preference name="debuggable" value="false" />
 </config-file>
 
 <preference name="phonegap-version" value="cli-6.5.0" />
