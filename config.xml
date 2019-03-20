@@ -22,7 +22,7 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 <preference name="debuggable" value="false" />
 </config-file>
 
-<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="phonegap-version" value="cli-8.1.1" />
 <preference name="android-minSdkVersion" value="16" />            
 <preference name="android-targetSdkVersion" value="26" />  
 <preference name="backgroundcolor" value="#ffffff" />
