@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap       = "http://phonegap.com/ns/1.0"
     xmlns:android   = "http://schemas.android.com/apk/res/android"
     id          = "com.xamity.life"
     versionCode = "10"
@@ -42,6 +40,9 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 <plugin name="cordova-plugin-vibration" />
 <plugin name="cordova-plugin-device-orientation" />
 
+<platform name="android">
+        <allow-intent href="market:*" />
+<feature name="Launcher">
 <param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
     <param name="ios-package" value="Launcher" />
 </feature>
