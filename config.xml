@@ -24,8 +24,10 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
     android:debuggable="false"
 </config-file>
 
+<platform name="android">
 <preference name="android-minSdkVersion" value="19">
 <preference name="android-targetSdkVersion" value="26">
+</platform>
 
 <preference name="backgroundcolor" value="#ffffff" />
 <preference name="stay-in-webview" value="false" />
