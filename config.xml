@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns="http://www.w3.org/ns/widgets"             
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    version="1.0.0"
+<widget id="com.xamity.tech" xmlns="http://www.w3.org/ns/widgets"     xmlns:cdv="http://cordova.apache.org/ns/1.0"
     versionCode = "10"
-    id = "com.xamity.life"
-    viewmodes ="floating fullscreen maximized windowed"
-    version = "1.0.1" >
+    version = "1.0.1" 
+    viewmodes ="floating fullscreen maximized windowed" >
 
  <name>XAMity Social Media</name>
  <description>
