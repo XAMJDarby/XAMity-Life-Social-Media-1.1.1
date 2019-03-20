@@ -3,9 +3,9 @@
     xmlns:gap       = "http://phonegap.com/ns/1.0"
     id          = "com.xamity.life"
     versionCode = "10"
-    version     = "1.0.1" >
-    viewmodes   = "default">
+    viewmodes   ="floating fullscreen maximized windowed"
 
+    version     = "1.0.1" >
  <name>XAMity Social Media</name>
 
   <description>
@@ -48,6 +48,9 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
     <param name="ios-package" value="Launcher" />
 </feature>
 
+<config-file platform="android" parent="/manifest" mode="merge">
+    android:debuggable="false"
+</config-file>
 
   <author href="https://xam.life/my/jdove" email="davidjdove@live.com">J. Dove</author>
 
