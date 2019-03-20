@@ -22,9 +22,10 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 
 <config-file platform="android" parent="/manifest" mode="merge">
     android:debuggable="false"
+</config-file>
+
 <preference name="android-minSdkVersion" value="19">
 <preference name="android-targetSdkVersion" value="26">
-</config-file>
 
 <preference name="backgroundcolor" value="#ffffff" />
 <preference name="stay-in-webview" value="false" />
