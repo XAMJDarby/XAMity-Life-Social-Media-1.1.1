@@ -20,6 +20,8 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
     <allow-intent href="sms:*" />
     <allow-navigation href="*" />
 
+<config-file platform="android" parent="/manifest" mode="merge">
+    android:debuggable="false"
 <platform name="android">
     <preference name="AndroidLaunchMode" value="singleTop"/>
 <preference name="android-minSdkVersion" value="19">
@@ -30,6 +32,7 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
     <icon src="res/android/hdpi.png" density="hdpi" />
     <icon src="res/android/xhdpi.png" density="xhdpi" />
 </platform>
+</config-file>
 
 <preference name="backgroundcolor" value="#ffffff" />
 <preference name="stay-in-webview" value="false" />
@@ -57,10 +60,6 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 <param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
     <param name="ios-package" value="Launcher" />
 </feature>
-
-<config-file platform="android" parent="/manifest" mode="merge">
-    android:debuggable="false"
-</config-file>
 
   <author href="https://xam.life/my/jdove" email="davidjdove@live.com">J. Dove</author>
 
