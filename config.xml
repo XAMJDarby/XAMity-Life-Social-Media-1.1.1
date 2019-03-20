@@ -42,14 +42,11 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 <plugin name="cordova-plugin-device-orientation" />
 
 <platform name="android">
+        <allow-intent href="market:*" />
 <feature name="Launcher">
 <param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
     <param name="ios-package" value="Launcher" />
 </feature>
-
-<config-file platform="android" parent="/manifest" mode="merge">
-    android:debuggable="false"
-</config-file>
 
   <author href="https://xam.life/my/jdove" email="davidjdove@live.com">J. Dove</author>
 
