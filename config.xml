@@ -24,14 +24,11 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
     android:debuggable="false"
 </config-file>
 
-<platform name="android">
-<preference name="minSdkVersion" value="19">
-<preference name="targetSdkVersion" value="26">
-</platform>
-
+<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="android-minSdkVersion" value="16" />            
+<preference name="android-targetSdkVersion" value="26" />  
 <preference name="backgroundcolor" value="#ffffff" />
 <preference name="stay-in-webview" value="false" />
-<preference name="phonegap-version" value="cli-6.5.0" />
 <preference name="permissions" value="none"/>
 <preference name="target-device" value="universal"/>
 <preference name="targetSdkVersion" value="universal"/>
