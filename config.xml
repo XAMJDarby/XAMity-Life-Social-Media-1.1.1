@@ -35,14 +35,16 @@ Listen radio.  Publish or just read ebooks.  Chat and meet people worldwide. Sha
 <preference name="InAppBrowserStorageEnabled" value="true"/>
 
 <plugin name="" source="git" spec="https://github.com/neptsoft/cordova-plugin-file-opener2"/>
+<plugin name="cordova-plugin-statusbar" source="npm"/>
 <plugin name="cordova-plugin-android-fingerprint-auth" source="npm"/>
 <plugin name="cordova-plugin-camera" source="npm"/>
 <plugin name="cordova-plugin-cookiemaster" source="npm"/>
 <plugin name="cordova-plugin-device" source="npm"/>
 <plugin name="cordova-plugin-dialogs" source="npm"/>
+<plugin name="cordova-plugin-touchid" source="npm"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
 <plugin name="cordova-plugin-inappbrowser" source="npm"/>
 <plugin name="cordova-plugin-splashscreen" source="npm"/>
-<plugin name="cordova-plugin-statusbar" source="npm"/>
 <plugin name="cordova-android-support-gradle-release" source="npm">
 <variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
 </plugin>
