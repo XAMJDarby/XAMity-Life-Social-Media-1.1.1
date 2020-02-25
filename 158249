@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=.28, minimum-scale=.1, maximum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>XAMity Social Media v.1.0.1 - Chat Worldwide</title>
+    </head>
+<body topmargin='0' leftmargin='0' bgcolor='#ffffff'>
+<table align='center' cellspacing='0' cellpadding='0'>
+<td hight='5%'>
+<table>
+<td>
+<a href='main.html'><img border='0' height='30' src='back2.png'></a>
+</td>
+<td width='95%'>
+<iframe scrolling=no frameborder='0' width='90%' height='40' src='https://xam.life/radio.pl?typ=XAp'></iframe>
+</td>
+</table>
+</td>
+<tr>
+<td>
+<iframe scrolling=yes frameborder='0' width='100%' height='600' src='https://xam.life/chat.pl'></iframe>
+</td>
+<tr>
+<td align='center'>
+&nbsp;&nbsp;
+<font color='#e9e9e9' size='2' face='arial'><b>copyright 2019 - twenty2Incorp - all rights reserved</b></font>
+</td>
+</table>
+
+<script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>
