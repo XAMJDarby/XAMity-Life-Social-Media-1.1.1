@@ -27,10 +27,10 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.</description>
     
 
 <config-file platform="android" parent="/manifest" mode="merge">
-    
+    android:debuggable="false"
 <preference name="debuggable" value="false" />
 </config-file>
-
+android:debuggable="false" 
 <platform name="android">
     <preference name="BackgroundColor" value="0x00000000" />
     <preference name="SplashScreen" value="screen" />
