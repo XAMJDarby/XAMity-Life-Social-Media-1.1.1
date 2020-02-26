@@ -21,14 +21,12 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.</description>
     android:debuggable="false"
 <preference name="debuggable" value="false" />
 </config-file>
-    
+
 <platform name="android">
     <!-- set Crosswalk default background color -->
     <!-- see http://developer.android.com/reference/android/graphics/Color.html -->
     <preference name="BackgroundColor" value="0x00000000" />
 </platform>
-
-
 
 <platform name="android">
     <!-- following requires the splash screen plugin -->
@@ -42,6 +40,9 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.</description>
     <preference name="SplashMaintainAspectRatio" value="false" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
 </platform>
+
+
+
 
 <preference name="phonegap-version" value="cli-8.1.1" />
 <preference name="android-minSdkVersion" value="19" />            
