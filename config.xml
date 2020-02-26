@@ -33,6 +33,8 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.</description>
 <preference name="fullscreen" value="true"/>
 <preference name="Orientation" value="default" />
 <preference name="InAppBrowserStorageEnabled" value="true"/>
+<preference name="DisallowOverscroll" value="true"/>
+<preference name="DisallowScroll" value="true"/>
 
 <plugin name="cordova-plugin-android-fingerprint-auth" source="npm"/>
 <plugin name="cordova-plugin-camera" source="npm"/>
