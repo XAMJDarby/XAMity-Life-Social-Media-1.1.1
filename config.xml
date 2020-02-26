@@ -4,17 +4,11 @@
     version = "1.1.1" 
 android-versionCode="10101">
     viewmodes ="floating fullscreen maximized windowed" >
-
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.xamity.tech" xmlns="http://www.w3.org/ns/widgets"     xmlns:cdv="http://cordova.apache.org/ns/1.0"
-    versionCode = "10"
-    version = "1.1.1" 
-android-versionCode="10101">
-    viewmodes ="floating fullscreen maximized windowed" >
-
- <name>XAMity Social Media</name>
- <description>
-Listen mp3 radio.  Upload music.  Chat and meet people worldwide.</description>
+    
+<name>Social Media</name>
+<description>
+Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
+</description>
 
     <access origin="https://xam.life" subdomains="true" />
     <allow-intent href="http://*/*" />
