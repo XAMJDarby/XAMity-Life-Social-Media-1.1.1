@@ -27,7 +27,6 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
 
 <platform name="android">
     <preference name="BackgroundColor" value="0x00000000" />
-    <preference name="SplashScreen" value="screen" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="FadeSplashScreen" value="false"/>
     <preference name="ShowSplashScreenSpinner" value="false"/>
