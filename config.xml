@@ -36,7 +36,7 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
 <preference name="phonegap-version" value="cli-8.1.1" />
 <preference name="android-minSdkVersion" value="19" />            
 <preference name="android-targetSdkVersion" value="26" />  
-<preference name="backgroundcolor" value="#000000" />
+<preference name="backgroundcolor" value="#222222" />
 <preference name="stay-in-webview" value="false" />
 <preference name="permissions" value="none"/>
 <preference name="target-device" value="universal"/>
