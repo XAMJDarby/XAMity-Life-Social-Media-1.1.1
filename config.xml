@@ -26,7 +26,6 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
 </config-file>
 
 <platform name="android">
-    <preference name="BackgroundColor" value="0x00000000" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="FadeSplashScreen" value="true"/>
     <preference name="ShowSplashScreenSpinner" value="true"/>
@@ -48,6 +47,8 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
 <preference name="InAppBrowserStorageEnabled" value="true"/>
 <preference name="DisallowOverscroll" value="true"/>
 <preference name="DisallowScroll" value="true"/>
+    <preference name="DisallowOverscroll" value="true" />
+<preference name="UIWebViewBounce" value="false" />
 
 <plugin name="cordova-plugin-splashscreen" source="npm"/>
 <plugin name="cordova-plugin-android-fingerprint-auth" source="npm"/>
