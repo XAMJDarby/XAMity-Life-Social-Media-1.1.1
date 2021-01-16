@@ -18,10 +18,7 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
     <allow-intent href="sms:*" />
     <allow-navigation href="*" />
     
-<config-file platform="android" parent="/manifest" mode="merge">
-    android:debuggable="false"
-<preference name="debuggable" value="true" />
-</config-file>
+
 
 <platform name="android">
     <preference name="AutoHideSplashScreen" value="true" />
@@ -31,7 +28,8 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
     <preference name="SplashShowOnlyFirstTime" value="true" />
 </platform>
 
-
+<gap:plugin name="pushbots-cordova-plugin" spec="1.6.14" source="npm" />
+    <preference name="android-build-tool" value="gradle" />
 <preference name="android-minSdkVersion" value="19" />
 <preference name="phonegap-version" value="cli-9.0.0" />           
 <preference name="android-targetSdkVersion" value="28" />  
