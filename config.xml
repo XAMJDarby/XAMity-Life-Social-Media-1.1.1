@@ -59,17 +59,18 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
     <splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
     <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
 
-<plugin name="cordova-plugin-splashscreen" source="npm"/>
-<plugin name="cordova-plugin-android-fingerprint-auth" source="npm"/>
-<plugin name="cordova-plugin-camera" source="npm"/>
-<plugin name="cordova-plugin-cookiemaster" source="npm"/>
-<plugin name="cordova-plugin-device" source="npm"/>
-<plugin name="cordova-plugin-media" source="npm"/>
-<plugin name="cordova-plugin-secure-key-store" source="npm"/>
-<plugin name="cordova-plugin-statusbar" source="npm"/>
-<plugin name="cordova-plugin-whitelist" source="npm"/>
-<plugin name="cordova-plugin-inappbrowser" source="npm"/>
-<plugin name="cordova-android-support-gradle-release" source="npm">
+<plugin name="cordova-android-support-gradle-release" spec="3.0.1" />
+<plugin name="cordova-plugin-android-fingerprint-auth" spec="1.5.0" />
+<plugin name="cordova-plugin-camera" spec="5.0.1" />
+<plugin name="cordova-plugin-cookiemaster" spec="1.0.0" />
+<plugin name="cordova-plugin-device" spec="2.0.3" />
+<plugin name="cordova-plugin-inappbrowser" spec="4.1.0" />
+<plugin name="cordova-plugin-media" spec="5.0.3" />
+<plugin name="cordova-plugin-secure-key-store" spec="1.5.4" />
+<plugin name="cordova-plugin-splashscreen" spec="6.0.0" />
+<plugin name="cordova-plugin-statusbar" spec="2.4.3" />
+<plugin name="cordova-plugin-whitelist" spec="1.3.4" />
+
 <variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
 </plugin>
 
