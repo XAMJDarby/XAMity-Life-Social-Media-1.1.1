@@ -31,7 +31,6 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
     <preference name="SplashShowOnlyFirstTime" value="true" />
 </platform>
 
-<plugin name="com.phonegap.plugins.PushPlugin" spec="^2.2.1" />
 <preference name="android-build-tool" value="ant" />
 <preference name="android-minSdkVersion" value="19" />
 <preference name="phonegap-version" value="cli-9.0.0" />           
@@ -60,7 +59,7 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
     <splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
     <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
 
-    <gap:plugin name="com.phonegap.plugins.pushplugin" />
+<plugin name="com.phonegap.plugins.PushPlugin" spec="^2.2.1" />
 <plugin name="cordova-plugin-splashscreen" source="npm"/>
 <plugin name="cordova-plugin-android-fingerprint-auth" source="npm"/>
 <plugin name="cordova-plugin-camera" source="npm"/>
