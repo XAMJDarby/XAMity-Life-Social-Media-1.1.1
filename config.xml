@@ -31,7 +31,7 @@ Listen mp3 radio.  Upload music.  Chat and meet people worldwide.
     <preference name="SplashShowOnlyFirstTime" value="true" />
 </platform>
 
-<gap:plugin name="pushbots-cordova-plugin" spec="1.6.14" source="npm" />
+<plugin name="com.phonegap.plugins.PushPlugin" spec="^2.2.1" />
 <preference name="android-build-tool" value="gradle" />
 <preference name="android-minSdkVersion" value="19" />
 <preference name="phonegap-version" value="cli-9.0.0" />           
