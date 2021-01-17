@@ -1,18 +1,26 @@
 'use strict';
 
-self.addEventListener('push', function(event) {
-var payload = event.data ? event.data.text() : 'no payload';
-  console.log('Received a push message', event);
-  event.waitUntil(
-    self.registration.showNotification('You Got Love', {
-    "body": "xxxxx lov'd your pic ..dklf7hgu.jpg",
-"icon": "gotlove.png",
-"click_action" : "https://xamworld.com",
-"vibrate": [200, 100, 200, 100, 200, 100, 400],
-"tag": "got-love"
-    })
+self.addEventListener('push', function(e) {
+  var options = {
+    body: 'This notification was generated from a push!',
+    icon: 'images/example.png',
+    vibrate: [100, 50, 100],
+    data: {
+      dateOfArrival: Date.now(),
+      primaryKey: '2'
+    },
+    actions: [
+      {action: 'explore', title: 'Explore this new world',
+        icon: 'images/checkmark.png'},
+      {action: 'close', title: 'Close',
+        icon: 'images/xmark.png'},
+    ]
+  };
+  e.waitUntil(
+    self.registration.showNotification('Hello world!', options)
   );
 });
+
 
 self.addEventListener('notificationclick', function(event) {
   console.log('On notification click: ', event.notification.tag);
